@@ -1,0 +1,3 @@
+This is a simple program for Google Sheets with multiple functions. Before it can be used, in the root directory a google service account .json keyfile with at least viewer permission must be added to the root of the project. Also, a .env file must be made which exports the filepath of the keyfile, as well as the sheet id contained in the url of the sheet which is to be analyzed. The service account for which you've added the keyfile must also have viewer access to whichever sheet id's are added.
+
+To obtain cell information use answer.py and change the range.txt file to the appropriate range and run.
